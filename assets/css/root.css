@@ -3,13 +3,16 @@
     --fs-xxl: 48px;
     --fs-2xl: 64px;
 }
+
 /* -----------font size----------- */
-.head{
+.head {
     font-size: var(--fs-xxl);
 }
-.sub-heading{
+
+.sub-heading {
     font-size: var(--fs-xxl);
 }
-.main-head{
+
+.main-head {
     font-size: var(--fs-2xl);
 }

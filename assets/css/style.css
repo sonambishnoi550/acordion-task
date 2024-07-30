@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .head {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -71,6 +72,7 @@
 .que-color {
     color: #3D91ED !important;
 }
+
 .bg-border {
     position: relative;
 }
@@ -95,11 +97,11 @@
     border: 1px solid rgba(30, 173, 182, 1);
     box-shadow: 2px 0px 5px 3px rgba(30, 173, 182, 1);
 }
-.t-white{
-    color: white;
-    font-family: 'Audiowide' ,sans-serif;
-        font-weight: 400;
-        line-height: 81.59px;
-        text-align: center;
-}
 
+.t-white {
+    color: white;
+    font-family: 'Audiowide', sans-serif;
+    font-weight: 400;
+    line-height: 81.59px;
+    text-align: center;
+}
