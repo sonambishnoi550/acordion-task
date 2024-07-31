@@ -42,7 +42,16 @@
 .max-width-768 {
     max-width: 768px !important;
 }
+.plus-sub-btn:not(.collapsed){
+    color: black !important;
+}
+.plus-sub-btn:not(.collapsed)::after{
+        background-image: url(https://cdn.iconscout.com/icon/premium/png-256-thumb/minus-2773770-2303688.png?f=webp&w=256) !important;
 
+}
+.plus-sub-btn::after{
+    background-image: url(https://cdn.icon-icons.com/icons2/834/PNG/512/plus_icon-icons.com_66718.png) !important;
+}
 /* -----------------2nd-------------- */
 
 .accordion-2-text {
@@ -74,16 +83,19 @@
 }
 
 .accordion-bg-2 {
-    background-image: url(../images/black-image.png);
+    background-image: url(../image/black.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
- .opacity-05{
+
+.opacity-05 {
     opacity: 0.5;
- }
-.gap-10{
+}
+
+.gap-10 {
     gap: 10px;
 }
+
 .bg-blur {
     background: linear-gradient(180deg,
             rgba(255, 255, 255, 0.1) 0%,
@@ -95,7 +107,7 @@
 
 /* ----------------section3--------------- */
 .b-image {
-    background-image: url(../images/bg-image.png);
+    background-image: url(../image/bg-image.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
