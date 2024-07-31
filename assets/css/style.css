@@ -28,6 +28,17 @@
 .box-shadow {
     box-shadow: none !important;
 }
+.accordion-text{
+        font-family: 'Poppins' ,sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        text-align: left;
+        color: black !important;
+}
+.max-width-768{
+    max-width: 768px !important;
+}
 
 /* -----------------2nd-------------- */
 .black {
