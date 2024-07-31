@@ -1,5 +1,7 @@
 :root {
     /*-----------------------------font-size------------------------*/
+    --fs-sm:18px;
+    --fs-md:24px;
     --fs-xxl: 48px;
     --fs-2xl: 64px;
 }
@@ -15,4 +17,13 @@
 
 .main-head {
     font-size: var(--fs-2xl);
+}
+.accordion-3-text{
+    font-size: var(--fs-md);
+}
+.accordion-2-text{
+    font-size: var(--fs-sm);
+}
+.accordion-text{
+    font-size: var(--fs-sm);
 }

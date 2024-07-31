@@ -32,7 +32,6 @@
 
 .accordion-text {
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
     font-weight: 600;
     line-height: 27px;
     text-align: left;
@@ -52,11 +51,14 @@
 .plus-sub-btn::after{
     background-image: url(https://cdn.icon-icons.com/icons2/834/PNG/512/plus_icon-icons.com_66718.png) !important;
 }
+.icon-btn::after{
+    background-image: url(../image/icon.png) !important;
+    margin-left: auto;
+}
 /* -----------------2nd-------------- */
 
 .accordion-2-text {
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
     font-weight: 500;
     line-height: 27px;
     text-align: left;
@@ -139,7 +141,6 @@
 
 .accordion-3-text {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
     font-weight: 600;
     line-height: 29.26px;
     text-align: left;
@@ -148,7 +149,7 @@
 }
 
 .bg-border::after {
-    content: url("../images/image1.png");
+    content:url(../image/image1.png);
     position: absolute;
     top: -4px;
     left: -3px;
@@ -156,7 +157,7 @@
 }
 
 .bg-border::before {
-    content: url("../images/image2.png");
+    content: url(../image/image2.png);
     position: absolute;
     bottom: -9px;
     right: -3px;
