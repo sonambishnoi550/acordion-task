@@ -52,7 +52,11 @@
 .backg-black {
     background-color: black !important;
 }
-
+.accordion-bg-2{
+    background-image: url(../images/black-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bg-blur {
     background: linear-gradient(180deg,
             rgba(255, 255, 255, 0.1) 0%,
@@ -81,11 +85,19 @@
 }
 
 .que-color {
-    color: #3D91ED !important;
+    background-color: linear-gradient(90deg, #815cc8 0%, #1babfe 100%);
 }
 
 .bg-border {
     position: relative;
+}
+.accordion-3-text{
+    font-family: 'Montserrat' ,sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29.26px;
+        text-align: left;
+        color: white;
 }
 
 .bg-border::after {
