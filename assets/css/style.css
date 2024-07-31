@@ -43,7 +43,7 @@
     max-width: 768px !important;
 }
 .plus-sub-btn:not(.collapsed){
-    color: black !important;
+    color: black!important;
 }
 .plus-sub-btn:not(.collapsed)::after{
         background-image: url(https://cdn.iconscout.com/icon/premium/png-256-thumb/minus-2773770-2303688.png?f=webp&w=256) !important;
